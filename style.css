@@ -21,3 +21,8 @@
 .reading-entry .entry-head>div{min-width:0}
 .reading-entry h3{overflow-wrap:anywhere}
 @media(max-width:760px){.reading-grid{grid-template-columns:1fr}.reading-grid>.card{margin-bottom:0}.reading-entry .entry-head{align-items:start}.reading-entry time{white-space:normal;text-align:right;max-width:9rem}}
+
+/* Automations and patterns */
+.pattern-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:18px 0 24px}.pattern-card{background:var(--paper,#fff);border:1px solid var(--line,#ded7cf);border-radius:14px;padding:18px}.pattern-card>span{display:inline-block;text-transform:uppercase;letter-spacing:.09em;font-size:11px;font-weight:800;color:var(--teal,#2f5c55);margin-bottom:6px}.pattern-card h3{margin:0 0 7px}.pattern-card p{margin:7px 0 0}.pattern-fact{color:var(--muted,#6a625d);font-size:13px}.pattern-enquiry ol{padding-left:21px;margin-bottom:0}.pattern-enquiry li{margin:8px 0}@media(max-width:640px){.pattern-grid{grid-template-columns:1fr}.pattern-card{padding:16px}}
+
+.patterns-head{max-width:720px;margin:0 0 22px}.patterns-head h2{margin:3px 0 8px}.patterns-head p:last-child{margin:0;color:var(--muted,#6a625d)}
